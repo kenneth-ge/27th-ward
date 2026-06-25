@@ -19,4 +19,6 @@ Running `Crash_Analysis.ipynb` writes these interactive maps to `maps/` (open th
 | `crash_excess_factor_screening.html` | Network screening — crash **multiplicative factor** (observed ÷ expected) from the Negative-Binomial SPF + Empirical Bayes. Red = more crashes than peers of the same volume/control/layout; blue = safer than peers. |
 | `injury_cost_excess_factor_screening.html` | Network screening — injury-**cost** factor (observed ÷ expected) from the Gamma GLM. Red = costlier than peers; blue = cheaper. |
 | `crash_factor_context_only_screening.html` | Network screening with the **context-only** SPF (AIC-selected: volume + junction size + crime, *no* road-design covariates). EB multiplicative factor — red = more crashes than the exogenous context predicts, blue = fewer. |
+| `cost_factor_context_only_screening.html` | Severity twin of the above: injury-**cost** factor (observed ÷ expected) from a context-only **Gamma GLM** (AIC-selected). Red = costlier than the exogenous context predicts, blue = cheaper. |
+| `violent_crime_rate_and_density.html` | Violent crime (homicide/assault/battery), the regression covariate visualized. Two toggleable layers: per-intersection rate (crimes per 1,000 residents within ~1 block) and a kernel-density heatmap of the raw crime points. |
 
